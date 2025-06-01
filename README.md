@@ -125,7 +125,7 @@ docker rmi xmr-node-proxy
 
 1. Specify at least one main pool with non zero share and "default: true". Sum of all non zero pool shares should be equal to 100 (percent).
 
-2. There should be one pool with "default: true" (the last one will override previous ones with "default: true"). Default pool means pool that is used 
+2. There should be one pool with "default: true" (the last one will override previous ones with "default: true"). Default pool means pool that is used
 for all initial miner connections via proxy.
 
 3. You can use pools with zero share as backup pools. They will be only used if all non zero share pools became down.
@@ -199,6 +199,7 @@ If you'd like to make a one time donation, the addresses are as follows:
 * BLOC - ```abLoc5iUG4a6oAb2dqygxkS5M2uHWx16zHb9fUWMzpSEDwm6T7PSq2MLdHonWZ16CGfnJKRomq75aZyviTo6ZjHeYQMzNAEkjMg```
 * ZEPH - ```ZEPHYR2nic7ULkkmgZNX8a9i2tMbkxuCqjgWZYuee3awX7RhtmhoT98CwGEGrruWZVSKtA7Z7JC8m7oeYHtBD9cBEZzdEh9BSdq4q```
 * SAL - ```SaLvdWKnkz6MvVgxXr2TWSDSvESz6EBcz3wmMFch2sQuMYz2sUQGVNDYhkYaSuvkDr9GSYp5h6BeQHnGK8HzKhqGeZCZzG3AHS3```
+* XTM - ```12FrDe5cUauXdMeCiG1DU3XQZdShjFd9A4p9agxsddVyAwpmz73x4b2Qdy5cPYaGmKNZ6g1fbCASJpPxnjubqjvHDa5```
 * RVN - ```RLVJv9rQNHzXS3Zn4JH8hfAHmm1LfECMxy```
 * XNA - ```Nb931jkFtFN7QWpu4FqSThaoKajYjS5iFZ```
 * CLORE - ```AdXPHtV8yb86a8QKsbs8gmUpRpcxufRn8n```
