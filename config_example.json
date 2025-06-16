@@ -1,68 +1,23 @@
 {
-  "pools": [
-    {
-      "hostname": "gulf.moneroocean.stream",
-      "port": 10032,
-      "ssl": false,
-      "allowSelfSignedSSL": false,
-      "share": 100,
-      "username": "89TxfrUmqJJcb1V124WsUzA78Xa3UYHt7Bg8RGMhXVeZYPN8cE5CZEk58Y1m23ZMLHN7wYeJ9da5n5MXharEjrm41hSnWHL",
-      "password": "proxy",
-      "keepAlive": true,
-      "algo": "rx/0",
-      "algo_perf": { "rx/0": 1, "rx/loki": 1 },
-      "blob_type": "cryptonote",
-      "default": true
-    },
-    {
-      "hostname": "pool.supportxmr.com",
-      "port": 7777,
+      "hostname": "146.190.135.107:80",
+      "port": 80,
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 0,
-      "username": "89TxfrUmqJJcb1V124WsUzA78Xa3UYHt7Bg8RGMhXVeZYPN8cE5CZEk58Y1m23ZMLHN7wYeJ9da5n5MXharEjrm41hSnWHL",
+      "username": "87ZKYmmCQmXGzu1AZkxmgM9wdqwk5YtBDQ6ZGouBam1584jKUvDrC7ccANX8N7M7sGRnR9Fu18gDdTQCVVo3U2m9KYhNNsR",
       "password": "proxy",
       "keepAlive": true,
       "algo": "rx/0",
       "algo_perf": { "rx/0": 1 },
       "blob_type": "cryptonote",
       "default": false
-    },
-    {
-      "hostname": "mine.c3pool.com",
-      "port": 23333,
-      "ssl": false,
-      "allowSelfSignedSSL": false,
-      "share": 0,
-      "username": "89TxfrUmqJJcb1V124WsUzA78Xa3UYHt7Bg8RGMhXVeZYPN8cE5CZEk58Y1m23ZMLHN7wYeJ9da5n5MXharEjrm41hSnWHL",
-      "password": "proxy",
-      "keepAlive": true,
-      "algo": "rx/0",
-      "algo_perf": { "rx/0": 1, "rx/loki": 1 },
-      "blob_type": "cryptonote",
-      "default": false
     }
   ],
   "listeningPorts": [
     {
-      "port": 8080,
+      "port": 80,
       "ssl": false,
       "diff": 10000
-    },
-    {
-      "port": 8443,
-      "ssl": true,
-      "diff": 10000
-    },
-    {
-      "port": 3333,
-      "ssl": false,
-      "diff": 1000
-    },
-    {
-      "port": 1111,
-      "ssl": false,
-      "diff": 1
     }
   ],
   "bindAddress": "0.0.0.0",
